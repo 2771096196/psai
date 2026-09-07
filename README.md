@@ -17,19 +17,19 @@ Dreamer 是一款面向 Photoshop 的 AI 创作与修图插件。你可以用自
 
 ## Agent Token 与 AI 生图服务
 
-- Dreamer Agent 所需的 Token / 使用额度，可以在交流群里自行拼 🚗。请遵守对应平台和服务商的规则，并通过群内约定的安全方式配置。
+- Dreamer Agent 所需的 Token / 使用额度，可以在 Dreamer QQ 群 `465662008` 里自行拼 🚗。请遵守对应平台和服务商的规则，并通过群内约定的安全方式配置。
 - AI 生图所需的 AK、API Key 等凭据，可自行选择兼容的服务商申请和解决，并在本机完成配置。
 - 请勿在公开群聊、GitHub Issues、日志或截图中暴露 Token、API Key、AccessKey Secret、账号密码等敏感凭据。
 
 ## 欢迎反馈与共创
 
-欢迎通过 [GitHub Issues](https://github.com/2771096196/psai/issues/new) 提交：
+欢迎加入 **Dreamer QQ 群：`465662008`**，在群里交流和提交：
 
 - Bug 与兼容性问题
 - Skills、工作流和使用方案
 - 新功能与产品需求
 
-提交日志或截图前，请先移除 Token、AK、账号信息、本机路径和其他隐私内容。
+加群时请备注“Dreamer”。提交日志或截图前，请先移除 Token、AK、账号信息、本机路径和其他隐私内容。
 
 ## 源码 / Source Code
 
