@@ -282,7 +282,7 @@ macOS 与 Windows 共用同一套客户端业务源码，但 macOS 正式包必�
 
 - [GitHub 主仓 Releases](https://github.com/2771096196/psai/releases/latest)
 - [GitHub 备用镜像 Releases](https://github.com/2771096196/PSAI-Dreamer/releases/latest)
-- [百度网盘 · Windows 1.4.1（旧版备用）](https://pan.baidu.com/s/1Doo3J2hqDmZrxu0-gMv93Q?pwd=7777) · 提取码：`7777`；1.4.2 请使用上方 GitHub Releases
+- [夸克网盘 · Windows 1.4.2](https://pan.quark.cn/s/9629e849bc16)
 - [Dreamer 官方网站](https://thoudreamer.com/)
 - Dreamer QQ 群：`465662008`
 
