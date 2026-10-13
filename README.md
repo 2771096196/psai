@@ -273,8 +273,8 @@ Windows 1.5.0 的目标运行环境：
 
 [Mac GitHub 下载](https://github.com/2771096196/psai/releases/tag/v1.5.0-macos-arm64) ·
 [备用镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.0-macos-arm64) ·
-[百度网盘](https://pan.baidu.com/s/1lnH61pYKBJbTFb2L-f-Fng?pwd=1234)（提取码 `1234`）。
-百度为 2026-10-13 创建的 7 天临时分享，过期后请使用 GitHub 下载。
+[百度网盘](https://pan.baidu.com/s/1Wn0wueAA6DHd6K72NRECEw?pwd=1234)（提取码 `1234`）。
+百度分享有效期为永久有效（2026-10-14 核验）；如链接失效，请使用 GitHub 下载。
 
 适用于 M 系列芯片的 Mac，已在 Apple Silicon + Photoshop 2026 验证原生服务启动、
 面板就绪、服务与 Photoshop 重启、模型直连和历史恢复。Intel Mac 及其他系统/Photoshop
@@ -303,9 +303,9 @@ Windows 1.5.0 的目标运行环境：
 
 - [GitHub 主仓 Releases](https://github.com/2771096196/psai/releases/latest)
 - [GitHub 备用镜像 Releases](https://github.com/2771096196/PSAI-Dreamer/releases/latest)
-- [百度网盘 · Windows 1.5.0](https://pan.baidu.com/s/1C9uP7cdg1Gukq6p7ATuZPA?pwd=7777)（提取码：`7777`）
+- [百度网盘 · Windows 1.5.0](https://pan.baidu.com/s/1DJzGsDOd6EcTDCLOrJ-MAw?pwd=1234)（提取码：`1234`，永久有效）
 - [GitHub · macOS Apple Silicon 1.5.0](https://github.com/2771096196/psai/releases/tag/v1.5.0-macos-arm64)
-- [百度网盘 · macOS Apple Silicon 1.5.0](https://pan.baidu.com/s/1lnH61pYKBJbTFb2L-f-Fng?pwd=1234)（提取码：`1234`）
+- [百度网盘 · macOS Apple Silicon 1.5.0](https://pan.baidu.com/s/1Wn0wueAA6DHd6K72NRECEw?pwd=1234)（提取码：`1234`，永久有效）
 - [Dreamer 官方网站](https://thoudreamer.com/)
 - Dreamer QQ 群：`465662008`
 
