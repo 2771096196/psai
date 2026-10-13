@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/2771096196/psai/releases/latest">下载最新 Windows 版</a> ·
+  <a href="https://github.com/2771096196/psai/releases/tag/v1.5.0-macos-arm64">下载 macOS Apple Silicon 版</a> ·
   <a href="https://thoudreamer.com/#download">官方网站与备用下载</a> ·
   <a href="https://github.com/2771096196/PSAI-Dreamer/releases/latest">备用 GitHub 镜像</a> ·
   QQ 群 <code>465662008</code>
@@ -19,6 +20,7 @@
   <a href="https://github.com/2771096196/psai/releases/latest"><img src="https://img.shields.io/github/v/release/2771096196/psai?display_name=tag&label=latest&color=7c5cff" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/Photoshop-26.0%2B-31A8FF" alt="Photoshop 26.0+">
   <img src="https://img.shields.io/badge/Windows-x64-4b8bfd" alt="Windows x64">
+  <img src="https://img.shields.io/badge/macOS-Apple%20Silicon-9acb75" alt="macOS Apple Silicon">
   <img src="https://img.shields.io/badge/Dreamer-完全免费-22b884" alt="Dreamer 插件本体完全免费">
 </p>
 
@@ -267,9 +269,28 @@ Windows 1.5.0 的目标运行环境：
 4. 打开 Dreamer 即可进入免费插件；账号登录可选，无需激活码和设备绑定。
 5. 直接生图只需配置 GRS Key；需要看图升级或 AI 搭档时，再配置 Chat 服务。先用照片副本完成一次 1K、单候选测试。
 
-macOS 与 Windows 共用同一套客户端业务源码，但 macOS 正式包必须在真实 Mac 上完成原生
-编译、Developer ID 签名、公证、Gatekeeper 与 Photoshop 验收；在这些门禁完成前，本页
-不提供未经验证的 macOS 正式下载。
+### macOS Apple Silicon 1.5.0
+
+[Mac GitHub 下载](https://github.com/2771096196/psai/releases/tag/v1.5.0-macos-arm64) ·
+[备用镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.0-macos-arm64) ·
+[百度网盘](https://pan.baidu.com/s/1lnH61pYKBJbTFb2L-f-Fng?pwd=1234)（提取码 `1234`）。
+百度为 2026-10-13 创建的 7 天临时分享，过期后请使用 GitHub 下载。
+
+适用于 M 系列芯片的 Mac，已在 Apple Silicon + Photoshop 2026 验证原生服务启动、
+面板就绪、服务与 Photoshop 重启、模型直连和历史恢复。Intel Mac 及其他系统/Photoshop
+组合未独立验证；上文 Windows 选区旁原生浮条不代表 Mac 已交付相同能力。
+无需安装 Python；数据保存在 Photoshop 插件目录内的 `Dreamer/user-data`，更新前请备份。
+
+安装仍是解压单个 `Dreamer` 文件夹、放入实际 Photoshop 的 `Plug-ins` 并完全重启。
+这个包尚未做 Apple Developer ID 签名和公证，GitHub 标记为预发布，不承诺下载后零提示：
+
+1. 首次启动按 Photoshop 提示允许运行；若 macOS 阻止 `start_agent.command`，到
+   **系统设置 → 隐私与安全性 → 仍要打开**，系统认证由本人完成。
+2. 确认来自上述可信下载入口后，在 Terminal 的整包组件提示中输入一次 `y`。
+   启动器先核验完整性，再仅清除此包 `scripts` / `python` 的隔离属性；这会跳过这些
+   组件的 Apple 首次检查，不等于 Apple 公证，也不需要逐个允许动态库或关闭系统保护。
+3. 回到面板重试，确认服务就绪。相同文件未被重新隔离时无需重复整包确认；不同 macOS
+   策略可能仍有独立系统授权，不能保证固定点击次数。
 
 ## 隐私、凭据与能力边界
 
@@ -283,6 +304,8 @@ macOS 与 Windows 共用同一套客户端业务源码，但 macOS 正式包必�
 - [GitHub 主仓 Releases](https://github.com/2771096196/psai/releases/latest)
 - [GitHub 备用镜像 Releases](https://github.com/2771096196/PSAI-Dreamer/releases/latest)
 - [百度网盘 · Windows 1.5.0](https://pan.baidu.com/s/1C9uP7cdg1Gukq6p7ATuZPA?pwd=7777)（提取码：`7777`）
+- [GitHub · macOS Apple Silicon 1.5.0](https://github.com/2771096196/psai/releases/tag/v1.5.0-macos-arm64)
+- [百度网盘 · macOS Apple Silicon 1.5.0](https://pan.baidu.com/s/1lnH61pYKBJbTFb2L-f-Fng?pwd=1234)（提取码：`1234`）
 - [Dreamer 官方网站](https://thoudreamer.com/)
 - Dreamer QQ 群：`465662008`
 
