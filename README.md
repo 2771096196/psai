@@ -37,6 +37,15 @@ Photoshop 精修之间反复往返的创作者。
 > 校色不需要聊天套餐。Chat 与 GRS 是独立第三方服务，实际模型调用费用由相应服务商收取。
 > Dreamer 账号为后续 Skills 发放与社区同步预留，这些服务仍在建设中，当前不作为本地功能的使用前提。
 
+## Windows 1.5.1：预设导航、本机厚涂方案与下载恢复
+
+- **预设章节索引**：快速定位目标、强度、保护规则、看图与完整提示词，生成设置与图片输入更紧凑。
+- **本机厚涂方案（Beta）**：选择惠绘或暖树完整方案，并管理本机服务的启动、关闭、状态与安装目录；ComfyUI、模型和第三方节点需另行准备。
+- **MiniMax 与看图升级**：支持 M3.1 Flash Preview，取消看图升级固定的输出上限，显示纯思考、空正文等错误；实际可用性由供应商账号权限决定。
+- **生成与取图恢复**：等待期间可调整参数并提交独立任务，保留各自快照；改善成图下载超时与后台取回，可复制原任务下载链接，取回不会重新提交付费生成。
+
+本版源码、编译启动、包内扫描与解压启动检查通过；本次未进行 Photoshop 手工验收或真实付费生成。下载入口与各版本列表见下方。
+
 ## 1.5.0：可拖动工作流，本机厚涂与生成参数偏好
 
 - 🪟 **工作流悬浮窗**：入口和窗口标题栏都可拖动，记住本机位置，打开时仍可操作背景，并可恢复默认位置。
@@ -133,7 +142,7 @@ Chat 提供方负责理解与沟通；三种工作模式的普通生图通过独
 ## 内置职业方向
 
 Dreamer 提供 6 个职业 Profile 和空白职业，用来调整分析重点、保护规则和专业语言。
-**职业 Profile 与专属 Skill 是两层能力**：1.5.0 客户包内置二次元摄影专属工作流和已开放的
+**职业 Profile 与专属 Skill 是两层能力**：1.5.1 客户包内置二次元摄影专属工作流和已开放的
 通用 Skills；其余职业为 Beta Profile，不等于已经交付完整的行业专属工作流。
 
 | 职业 | 主要用途 | 当前状态 |
@@ -212,7 +221,7 @@ Photoshop **线性减淡（添加）** 混合模式叠加到原图上。
 ### 抠图的当前范围
 
 道具库的 Photoshop 选择主体、透明素材导入，与“让 AI 生成 Alpha 蒙版后再贴回”是不同
-流程。**1.5.0 客户包暂未提供“物体提取与抠图”专属 Skill**，因此本页不将后者列作开箱即用
+流程。**1.5.1 客户包暂未提供“物体提取与抠图”专属 Skill**，因此本页不将后者列作开箱即用
 能力。处理主体边缘仍可使用 Photoshop 原生选择主体、选择并遮住和图层蒙版。
 
 ### 分向扩图贴回
@@ -255,7 +264,7 @@ Dreamer 会拟合剪贴 RGB 曲线，并读取 Photoshop 实际渲染结果检�
 
 ## 安装与首次使用
 
-Windows 1.5.0 的目标运行环境：
+Windows 1.5.1 的目标运行环境：
 
 - Windows x64；
 - Adobe Photoshop 2025、Photoshop 2026 或更高版本；
@@ -305,7 +314,7 @@ Intel Mac 及其他系统/Photoshop 组合未独立验证；上文 Windows 选�
 
 - [GitHub 主仓 Releases](https://github.com/2771096196/psai/releases/latest)
 - [GitHub 备用镜像 Releases](https://github.com/2771096196/PSAI-Dreamer/releases/latest)
-- [百度网盘 · Windows 1.5.0](https://pan.baidu.com/s/1DJzGsDOd6EcTDCLOrJ-MAw?pwd=1234)（提取码：`1234`，永久有效）
+- [百度网盘 · Windows 1.5.1](https://pan.baidu.com/s/1hYnnX6qBmLpRAJXAS8NN7w?pwd=7777)（提取码：`7777`）
 - [GitHub · macOS Apple Silicon 1.5.1](https://github.com/2771096196/psai/releases/tag/v1.5.1-macos-arm64)
 - [百度网盘 · macOS Apple Silicon 1.5.1](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)（提取码：`7777`，永久有效）
 - [Dreamer 官方网站](https://thoudreamer.com/)
@@ -319,7 +328,8 @@ Intel Mac 及其他系统/Photoshop 组合未独立验证；上文 Windows 选�
 | --- | --- | --- | --- |
 | macOS Apple Silicon | 1.5.1（当前预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.1-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.1-macos-arm64) | [下载](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)，`7777` |
 | macOS Apple Silicon | 1.5.0（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.0-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.0-macos-arm64) | [下载](https://pan.baidu.com/s/1Wn0wueAA6DHd6K72NRECEw?pwd=1234)，`1234` |
-| Windows x64 | 1.5.0（当前） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.0) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.0) | [下载](https://pan.baidu.com/s/1DJzGsDOd6EcTDCLOrJ-MAw?pwd=1234)，`1234` |
+| Windows x64 | 1.5.1（当前） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.1) | [下载](https://pan.baidu.com/s/1hYnnX6qBmLpRAJXAS8NN7w?pwd=7777)，`7777` |
+| Windows x64 | 1.5.0 | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.0) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.0) | [下载](https://pan.baidu.com/s/1DJzGsDOd6EcTDCLOrJ-MAw?pwd=1234)，`1234` |
 | Windows x64 | 1.4.2 | [主仓](https://github.com/2771096196/psai/releases/tag/v1.4.2) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.4.2) | — |
 | Windows x64 | 1.4.1 | [主仓](https://github.com/2771096196/psai/releases/tag/v1.4.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.4.1) | — |
 | Windows x64 | 1.4.0 | [主仓](https://github.com/2771096196/psai/releases/tag/v1.4.0) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.4.0) | — |
