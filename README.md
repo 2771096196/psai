@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/2771096196/psai/releases/latest">下载最新 Windows 版</a> ·
-  <a href="https://github.com/2771096196/psai/releases/tag/v2.0.0-macos-arm64">下载 macOS Apple Silicon 版</a> ·
+  <a href="https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64">下载 macOS Apple Silicon 版</a> ·
   <a href="https://thoudreamer.com/#download">官方网站与备用下载</a> ·
   <a href="https://github.com/2771096196/PSAI-Dreamer/releases/latest">备用 GitHub 镜像</a> ·
   QQ 群 <code>465662008</code>
@@ -278,16 +278,17 @@ Windows 1.5.1 的目标运行环境：
 4. 打开 Dreamer 即可进入免费插件；账号登录可选，无需激活码和设备绑定。
 5. 直接生图只需配置 GRS Key；需要看图升级或 AI 搭档时，再配置 Chat 服务。先用照片副本完成一次 1K、单候选测试。
 
-### macOS Apple Silicon 2.0.0
+### macOS Apple Silicon 2.0.1
 
-[Mac GitHub 下载](https://github.com/2771096196/psai/releases/tag/v2.0.0-macos-arm64) ·
-[备用镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.0-macos-arm64) ·
-[百度网盘 · 旧版 1.5.1](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)（提取码 `7777`）。
-当前 GitHub 为 2.0.0；百度链接仍是 1.5.1（永久分享，2026-10-14 核验），尚无 2.0.0 网盘分享。
+[Mac GitHub 下载](https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64) ·
+[备用镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.1-macos-arm64) ·
+[百度网盘 2.0.1](https://pan.baidu.com/s/1twyI48WAKHyZ3psQjXgphQ?pwd=1234)（提取码 `1234`）。
+当前 GitHub 与百度网盘均为 2.0.1；旧版本继续保留在下方历史列表。
 
-适用于 M 系列芯片的 Mac。2.0.0 完整原生编译，包含新主页与全局导航、修图工坊、
-模型思考设置、可选 JSON 提示词以及后台观察和贴回性能改进。本轮按要求交由用户自行
-验证，未完成 2.0.0 的 Photoshop 重装、面板/文档操作及付费模型验收。
+适用于 M 系列芯片的 Mac。2.0.1 修复 Photoshop 首次打开原生面板时可能错过显示事件、
+导致本机服务未启动的问题：加入有限次面板状态对账、启动进度与失败后的打开/重试入口；
+同时刷新面板缓存版本。本轮已完成归档包的隔离目录服务启动与免注册健康检查，未在
+Photoshop UI 手工验收面板、文档操作或付费模型；请用户在自己的 Photoshop 中验证。
 Intel Mac 及其他系统/Photoshop 组合未独立验证；Windows 专有选区浮条不代表 Mac 已支持。
 无需安装 Python；创作数据保存在插件内 `Dreamer/user-data`，少量界面偏好保存在
 Photoshop UXP 存储。更新前请备份。
@@ -315,8 +316,9 @@ Photoshop UXP 存储。更新前请备份。
 - [GitHub 主仓 Releases](https://github.com/2771096196/psai/releases/latest)
 - [GitHub 备用镜像 Releases](https://github.com/2771096196/PSAI-Dreamer/releases/latest)
 - [百度网盘 · Windows 1.5.1](https://pan.baidu.com/s/1hYnnX6qBmLpRAJXAS8NN7w?pwd=7777)（提取码：`7777`）
-- [GitHub · macOS Apple Silicon 2.0.0](https://github.com/2771096196/psai/releases/tag/v2.0.0-macos-arm64)
-- [百度网盘 · macOS Apple Silicon 1.5.1](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)（提取码：`7777`，永久有效）
+- [GitHub · macOS Apple Silicon 2.0.1](https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64)
+- [百度网盘 · macOS Apple Silicon 2.0.1](https://pan.baidu.com/s/1twyI48WAKHyZ3psQjXgphQ?pwd=1234)（提取码：`1234`）
+- [百度网盘 · macOS Apple Silicon 1.5.1 历史版](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)（提取码：`7777`，永久有效）
 - [Dreamer 官方网站](https://thoudreamer.com/)
 - Dreamer QQ 群：`465662008`
 
@@ -326,7 +328,8 @@ Photoshop UXP 存储。更新前请备份。
 
 | 平台 | 版本 | GitHub 主仓 / 镜像 | 百度网盘 |
 | --- | --- | --- | --- |
-| macOS Apple Silicon | 2.0.0（当前预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.0-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.0-macos-arm64) | 尚未提供 |
+| macOS Apple Silicon | 2.0.1（当前预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.1-macos-arm64) | [下载](https://pan.baidu.com/s/1twyI48WAKHyZ3psQjXgphQ?pwd=1234)，`1234` |
+| macOS Apple Silicon | 2.0.0（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.0-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.0-macos-arm64) | 尚未提供 |
 | macOS Apple Silicon | 1.5.1（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.1-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.1-macos-arm64) | [下载](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)，`7777` |
 | macOS Apple Silicon | 1.5.0（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.0-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.0-macos-arm64) | [下载](https://pan.baidu.com/s/1Wn0wueAA6DHd6K72NRECEw?pwd=1234)，`1234` |
 | Windows x64 | 1.5.1（当前） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.1) | [下载](https://pan.baidu.com/s/1hYnnX6qBmLpRAJXAS8NN7w?pwd=7777)，`7777` |
