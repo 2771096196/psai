@@ -50,7 +50,7 @@ Photoshop 精修之间反复往返的创作者。
 
 本版通过完整源码检查、Windows 原生编译、EXE 启动、最终 ZIP 扫描、中文与空格路径启动、服务替换和 SHA-256 校验。真实官网管理员发布与客户端公告界面（浏览器验证）通过；**尚未完成本版 Photoshop 真机、真实付费生成和 Defender/SmartScreen 验收，Windows EXE 未签名**，因此以预发布提供。请先在作品副本上验收，并备份本机用户数据。
 
-当前 2.1.0 下载仅通过本页两个 GitHub Release 入口提供。官网与百度网盘的渠道版本独立标注，旧版本继续保留。
+当前 Windows 2.1.0 已提供两个 GitHub Release 和[百度网盘下载](https://pan.baidu.com/s/1dmtggvoJ1GQvhoS1xGwjxA?pwd=7777)（提取码 `7777`，永久有效）。官网与各平台的渠道版本独立标注，旧版本继续保留。
 
 ## Windows 1.5.1 历史更新：预设导航、本机厚涂方案与下载恢复
 
@@ -331,12 +331,14 @@ Photoshop UXP 存储。更新前请备份。
 - [GitHub 主仓 · Windows 2.1.0 预发布](https://github.com/2771096196/psai/releases/tag/v2.1.0)
 - [GitHub 备用镜像 · Windows 2.1.0 预发布](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.1.0)
 - [GitHub · Windows 2.0.1 稳定历史版](https://github.com/2771096196/psai/releases/tag/v2.0.1)
+- [百度网盘 · Windows 2.1.0](https://pan.baidu.com/s/1dmtggvoJ1GQvhoS1xGwjxA?pwd=7777)（提取码：`7777`，永久有效）
 - [百度网盘 · Windows 1.5.1 历史版](https://pan.baidu.com/s/1hYnnX6qBmLpRAJXAS8NN7w?pwd=7777)（提取码：`7777`，此旧分享不提供 2.1.0）
 - [GitHub · macOS Apple Silicon 2.0.1](https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64)
 - [百度网盘 · macOS Apple Silicon 2.0.1](https://pan.baidu.com/s/1twyI48WAKHyZ3psQjXgphQ?pwd=1234)（提取码：`1234`）
 - [百度网盘 · macOS Apple Silicon 1.5.1 历史版](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)（提取码：`7777`，永久有效）
 - [Dreamer 官方网站](https://thoudreamer.com/)
 - Dreamer QQ 群：`465662008`
+- 暖树微信：`wxthou`（添加时请备注“Dreamer”）。欢迎联系我们，交流使用反馈、修图工作流与共创想法。
 
 ### 版本列表与历史下载
 
@@ -348,8 +350,8 @@ Photoshop UXP 存储。更新前请备份。
 | macOS Apple Silicon | 2.0.0（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.0-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.0-macos-arm64) | 尚未提供 |
 | macOS Apple Silicon | 1.5.1（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.1-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.1-macos-arm64) | [下载](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)，`7777` |
 | macOS Apple Silicon | 1.5.0（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.0-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.0-macos-arm64) | [下载](https://pan.baidu.com/s/1Wn0wueAA6DHd6K72NRECEw?pwd=1234)，`1234` |
-| Windows x64 | 2.1.0（当前预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.1.0) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.1.0) | 本次尚未发布 |
-| Windows x64 | 2.0.1（稳定历史版） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.1) | 见官网当前下载区 |
+| Windows x64 | 2.1.0（当前预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.1.0) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.1.0) | [下载](https://pan.baidu.com/s/1dmtggvoJ1GQvhoS1xGwjxA?pwd=7777)，`7777`，永久有效 |
+| Windows x64 | 2.0.1（稳定历史版） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.1) | [历史链接](https://pan.baidu.com/s/1oTV_VPtUFSzj1M3518sp_A?pwd=7777)，`7777` |
 | Windows x64 | 1.5.1（历史版） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.1) | [下载](https://pan.baidu.com/s/1hYnnX6qBmLpRAJXAS8NN7w?pwd=7777)，`7777` |
 | Windows x64 | 1.5.0 | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.0) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.0) | [下载](https://pan.baidu.com/s/1DJzGsDOd6EcTDCLOrJ-MAw?pwd=1234)，`1234` |
 | Windows x64 | 1.4.2 | [主仓](https://github.com/2771096196/psai/releases/tag/v1.4.2) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.4.2) | — |
