@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/2771096196/psai/releases/tag/v2.2.1">下载 Windows 2.2.1 预发布版</a> ·
   <a href="https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64">下载 macOS Apple Silicon 版</a> ·
-  <a href="https://thoudreamer.com/#download">官方网站与备用下载</a> ·
+  <a href="https://thoudreamer.com/#download">官方网站与下载入口</a> ·
   <a href="https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.2.1">Windows 2.2.1 备用镜像</a> ·
   QQ 群 <code>465662008</code>
 </p>
@@ -39,7 +39,7 @@ Photoshop 精修之间反复往返的创作者。
 
 ## Windows 2.2.1：本地光影、深度蒙版与安装管理
 
-[下载 2.2.1 预发布版](https://github.com/2771096196/psai/releases/tag/v2.2.1) · [备用镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.2.1) · [官网安装器 r2](https://thoudreamer.com/downloads/releases/Dreamer-2.2.1-windows-x64-setup-r2.exe) · [手动解压 ZIP](https://thoudreamer.com/downloads/releases/Dreamer-2.2.1-windows-x64.zip)
+[下载 2.2.1 预发布版](https://github.com/2771096196/psai/releases/tag/v2.2.1) · [备用镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.2.1)
 
 - **安装与管理中心**：安装／更新、管理／卸载、数据与存储，新增图标和介绍配图。支持系统毛玻璃与磨砂回退；更新保留数据，删除数据需明确确认。
 - **安装修复**：r2 去除 Get-FileHash 命令依赖，使用 .NET 校验；识别并关闭本插件后台，等待文件释放，显示实际失败步骤，保留恢复备份。请先保存作品并退出 Photoshop。
@@ -49,7 +49,7 @@ Photoshop 精修之间反复往返的创作者。
 
 下载模型不包含在客户端内。高级选区模型需额外运行库；相对深度不是实际距离测量。Windows EXE 未签名，以预发布提供；安装文件事务、原生启动和界面检查不等同于 Photoshop 真机文档及所有系统验收。
 
-百度网盘现有分享仍为 **2.1.0**，新包上传完成后另行更新链接。官网文件可核对 [EXE SHA-256](https://thoudreamer.com/downloads/releases/Dreamer-2.2.1-windows-x64-setup-r2.exe.sha256) 和 [ZIP SHA-256](https://thoudreamer.com/downloads/releases/Dreamer-2.2.1-windows-x64.zip.sha256)。
+百度网盘现有分享仍为 **2.1.0**，新包上传完成后另行更新链接。安装器、ZIP 和对应 SHA-256 文件均在 GitHub Release 附件中；官网仅提供版本信息和渠道入口。
 
 ## Windows 2.1.1 历史更新：官方免费 Chat 与选区下载修复
 
@@ -62,7 +62,7 @@ Photoshop 精修之间反复往返的创作者。
 
 本版为未签名 Windows 预发布。真实管理员换钥/停用、注册账号领取与本机直连 MiniMax 已验证；自动化检查不等同于 Photoshop 原生文档操作或 Defender/SmartScreen 验收。请先用作品副本验证并备份用户数据。
 
-该历史版提供[官网备用 ZIP](https://thoudreamer.com/downloads/releases/Dreamer-2.1.1-windows-x64.zip)并核对[SHA-256](https://thoudreamer.com/downloads/releases/Dreamer-2.1.1-windows-x64.zip.sha256)。
+该历史版的文件与校验信息见上方 GitHub Release。
 
 ## Windows 2.1.0 历史更新：公告、更新提醒与工作区恢复
 
