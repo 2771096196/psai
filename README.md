@@ -9,15 +9,15 @@
 <p align="center"><strong>框选一句话，生成新可能；把光线、场景和灵感留在可编辑的 Photoshop 图层里。</strong></p>
 
 <p align="center">
-  <a href="https://github.com/2771096196/psai/releases/tag/v2.1.1">下载 Windows 2.1.1 预发布版</a> ·
+  <a href="https://github.com/2771096196/psai/releases/tag/v2.2.1">下载 Windows 2.2.1 预发布版</a> ·
   <a href="https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64">下载 macOS Apple Silicon 版</a> ·
   <a href="https://thoudreamer.com/#download">官方网站与备用下载</a> ·
-  <a href="https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.1.1">Windows 2.1.1 备用镜像</a> ·
+  <a href="https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.2.1">Windows 2.2.1 备用镜像</a> ·
   QQ 群 <code>465662008</code>
 </p>
 
 <p align="center">
-  <a href="https://github.com/2771096196/psai/releases/tag/v2.1.1"><img src="https://img.shields.io/badge/Windows-2.1.1%20Preview-7c5cff" alt="Windows 2.1.1 预发布"></a>
+  <a href="https://github.com/2771096196/psai/releases/tag/v2.2.1"><img src="https://img.shields.io/badge/Windows-2.2.1%20Preview-7c5cff" alt="Windows 2.2.1 预发布"></a>
   <img src="https://img.shields.io/badge/Photoshop-26.0%2B-31A8FF" alt="Photoshop 26.0+">
   <img src="https://img.shields.io/badge/Windows-x64-4b8bfd" alt="Windows x64">
   <img src="https://img.shields.io/badge/macOS-Apple%20Silicon-9acb75" alt="macOS Apple Silicon">
@@ -37,7 +37,21 @@ Photoshop 精修之间反复往返的创作者。
 > 校色不需要聊天套餐。Chat 与 GRS 是独立第三方服务，实际模型调用费用由相应服务商收取。
 > Windows 2.1.1 登录后可选择官方免费 MiniMax M3.1 Flash Chat，开放状态及套餐额度由运营提供；取消后使用自己的 Chat 配置。图片生成仍使用独立 GRS Key。Skills 发放与社区同步仍在建设中。
 
-## Windows 2.1.1：官方免费 Chat 与选区下载修复
+## Windows 2.2.1：本地光影、深度蒙版与安装管理
+
+[下载 2.2.1 预发布版](https://github.com/2771096196/psai/releases/tag/v2.2.1) · [备用镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.2.1) · [官网安装器 r2](https://thoudreamer.com/downloads/releases/Dreamer-2.2.1-windows-x64-setup-r2.exe) · [手动解压 ZIP](https://thoudreamer.com/downloads/releases/Dreamer-2.2.1-windows-x64.zip)
+
+- **安装与管理中心**：安装／更新、管理／卸载、数据与存储，新增图标和介绍配图。支持系统毛玻璃与磨砂回退；更新保留数据，删除数据需明确确认。
+- **安装修复**：r2 去除 Get-FileHash 命令依赖，使用 .NET 校验；识别并关闭本插件后台，等待文件释放，显示实际失败步骤，保留恢复备份。请先保存作品并退出 Photoshop。
+- **本地光影**：辉光、黑柔与白柔采用传统算法，无需 AI 模型；支持全图／选区、预览、独立效果图层和蒙版。
+- **选区与资产**：相对深度蒙版、离线权重目录与基础引擎缓存；本地资产库与辉光入口加入侧栏，旧自定义布局也能补入。
+- **使用体验**：修复组合修图旧浮层遮挡，三项首次说明持续记住；公告支持媒体和版本提醒，并引导官网／社群更新。
+
+下载模型不包含在客户端内。高级选区模型需额外运行库；相对深度不是实际距离测量。Windows EXE 未签名，以预发布提供；安装文件事务、原生启动和界面检查不等同于 Photoshop 真机文档及所有系统验收。
+
+百度网盘现有分享仍为 **2.1.0**，新包上传完成后另行更新链接。官网文件可核对 [EXE SHA-256](https://thoudreamer.com/downloads/releases/Dreamer-2.2.1-windows-x64-setup-r2.exe.sha256) 和 [ZIP SHA-256](https://thoudreamer.com/downloads/releases/Dreamer-2.2.1-windows-x64.zip.sha256)。
+
+## Windows 2.1.1 历史更新：官方免费 Chat 与选区下载修复
 
 [下载 2.1.1 预发布版](https://github.com/2771096196/psai/releases/tag/v2.1.1) · [备用镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.1.1) · [官网与各渠道版本](https://thoudreamer.com/#download)
 
@@ -48,7 +62,7 @@ Photoshop 精修之间反复往返的创作者。
 
 本版为未签名 Windows 预发布。真实管理员换钥/停用、注册账号领取与本机直连 MiniMax 已验证；自动化检查不等同于 Photoshop 原生文档操作或 Defender/SmartScreen 验收。请先用作品副本验证并备份用户数据。
 
-现有百度分享仍为 **2.1.0**；请使用标注 **2.1.1** 的下载入口获取新增功能。GitHub 不便访问时，可使用[官网备用 ZIP](https://thoudreamer.com/downloads/releases/Dreamer-2.1.1-windows-x64.zip)并核对[SHA-256](https://thoudreamer.com/downloads/releases/Dreamer-2.1.1-windows-x64.zip.sha256)。
+该历史版提供[官网备用 ZIP](https://thoudreamer.com/downloads/releases/Dreamer-2.1.1-windows-x64.zip)并核对[SHA-256](https://thoudreamer.com/downloads/releases/Dreamer-2.1.1-windows-x64.zip.sha256)。
 
 ## Windows 2.1.0 历史更新：公告、更新提醒与工作区恢复
 
