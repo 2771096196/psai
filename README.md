@@ -49,7 +49,7 @@ Photoshop 精修之间反复往返的创作者。
 
 下载模型不包含在客户端内。高级选区模型需额外运行库；相对深度不是实际距离测量。Windows EXE 未签名，以预发布提供；安装文件事务、原生启动和界面检查不等同于 Photoshop 真机文档及所有系统验收。
 
-百度网盘现有分享仍为 **2.1.0**，新包上传完成后另行更新链接。GitHub Release 附件仅提供最新 EXE 安装器和 ZIP 两个文件，SHA-256 在发布说明中；官网仅提供版本信息和渠道入口。
+[百度网盘 · Windows 2.2.1 / 安装器 r4](https://pan.baidu.com/s/1OaS2AYEjv16HG-FFA79WEw?pwd=jr37)（提取码 **jr37**），内含最新 EXE 安装器和同版 ZIP 两个文件。GitHub Release 附件仅提供最新 EXE 安装器和 ZIP 两个文件，SHA-256 在发布说明中；官网仅提供版本信息和渠道入口。
 
 ## Windows 2.1.1 历史更新：官方免费 Chat 与选区下载修复
 
@@ -358,7 +358,8 @@ Photoshop UXP 存储。更新前请备份。
 - [GitHub 主仓 · Windows 2.1.1 预发布](https://github.com/2771096196/psai/releases/tag/v2.1.1)
 - [GitHub 备用镜像 · Windows 2.1.1 预发布](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.1.1)
 - [GitHub · Windows 2.0.1 稳定历史版](https://github.com/2771096196/psai/releases/tag/v2.0.1)
-- [百度网盘 · Windows 2.1.0](https://pan.baidu.com/s/1dmtggvoJ1GQvhoS1xGwjxA?pwd=7777)（提取码：`7777`，永久有效）
+- [百度网盘 · Windows 2.2.1 / 安装器 r4](https://pan.baidu.com/s/1OaS2AYEjv16HG-FFA79WEw?pwd=jr37)（提取码：`jr37`，EXE + ZIP）
+- [百度网盘 · Windows 2.1.0 历史版](https://pan.baidu.com/s/1dmtggvoJ1GQvhoS1xGwjxA?pwd=7777)（提取码：`7777`，永久有效）
 - [百度网盘 · Windows 1.5.1 历史版](https://pan.baidu.com/s/1hYnnX6qBmLpRAJXAS8NN7w?pwd=7777)（提取码：`7777`，此旧分享不提供 2.1.0）
 - [GitHub · macOS Apple Silicon 2.0.1](https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64)
 - [百度网盘 · macOS Apple Silicon 2.0.1](https://pan.baidu.com/s/1twyI48WAKHyZ3psQjXgphQ?pwd=1234)（提取码：`1234`）
@@ -377,7 +378,8 @@ Photoshop UXP 存储。更新前请备份。
 | macOS Apple Silicon | 2.0.0（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.0-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.0-macos-arm64) | 尚未提供 |
 | macOS Apple Silicon | 1.5.1（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.1-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.1-macos-arm64) | [下载](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)，`7777` |
 | macOS Apple Silicon | 1.5.0（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.0-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.0-macos-arm64) | [下载](https://pan.baidu.com/s/1Wn0wueAA6DHd6K72NRECEw?pwd=1234)，`1234` |
-| Windows x64 | 2.1.1（当前预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.1.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.1.1) | 现有分享仍为 2.1.0 |
+| Windows x64 | 2.2.1 / r4（当前预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.2.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.2.1) | [下载](https://pan.baidu.com/s/1OaS2AYEjv16HG-FFA79WEw?pwd=jr37)，`jr37`，EXE + ZIP |
+| Windows x64 | 2.1.1（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.1.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.1.1) | 未提供独立分享 |
 | Windows x64 | 2.1.0（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.1.0) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.1.0) | [下载](https://pan.baidu.com/s/1dmtggvoJ1GQvhoS1xGwjxA?pwd=7777)，`7777`，永久有效 |
 | Windows x64 | 2.0.1（稳定历史版） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.1) | [历史链接](https://pan.baidu.com/s/1oTV_VPtUFSzj1M3518sp_A?pwd=7777)，`7777` |
 | Windows x64 | 1.5.1（历史版） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.1) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.1) | [下载](https://pan.baidu.com/s/1hYnnX6qBmLpRAJXAS8NN7w?pwd=7777)，`7777` |
