@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/2771096196/psai/releases/tag/v2.2.1">下载 Windows 2.2.1 预发布版</a> ·
-  <a href="https://pan.baidu.com/s/1q4OgU-wRyVW6SK4xU6WLMA?pwd=1234">下载 macOS Apple Silicon 2.2.2（提取码 1234）</a> ·
+  <a href="https://github.com/2771096196/psai/releases/tag/v2.2.2-macos-arm64">下载 macOS Apple Silicon 2.2.2</a> ·
   <a href="https://thoudreamer.com/#download">官方网站与下载入口</a> ·
   <a href="https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.2.1">Windows 2.2.1 备用镜像</a> ·
   QQ 群 <code>465662008</code>
@@ -320,9 +320,9 @@ Windows 2.1.1 的目标运行环境：
 4. 打开 Dreamer 即可进入免费插件；账号登录可选，无需激活码和设备绑定。
 5. 直接生图只需配置 GRS Key；需要看图升级或 AI 搭档时，再配置 Chat 服务。先用照片副本完成一次 1K、单候选测试。
 
-### macOS Apple Silicon 2.2.2（百度网盘）
+### macOS Apple Silicon 2.2.2（预发布）
 
-[下载 2.2.2](https://pan.baidu.com/s/1q4OgU-wRyVW6SK4xU6WLMA?pwd=1234)（提取码 **1234**）。
+[GitHub 下载 2.2.2](https://github.com/2771096196/psai/releases/tag/v2.2.2-macos-arm64) · [备用镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.2.2-macos-arm64) · [百度网盘](https://pan.baidu.com/s/1q4OgU-wRyVW6SK4xU6WLMA?pwd=1234)（提取码 **1234**）。
 
 - 修复修图工坊初始化回复通道；辉光、黑柔、白柔保留透明与半透明边缘。
 - 原生颜色盘只给新增光染色；“贴回光线”和“贴回光线叠加后的图”为两个独立按钮。
@@ -333,7 +333,7 @@ SHA-256：`b027ad3e54e21d695d0d1d3a8287d142dcc4549453b208a5633425e3025f4aea`。
 2026-11-09 匿名核对了分享文件名、字节数及“永久有效”标注；未重新下载网盘文件核验摘要。
 包完整性和隔离目录启动通过，安装后的工坊界面仍待实际 Photoshop 验收；无 Developer ID 签名和 Apple 公证。
 升级前备份 `Dreamer/user-data`，完整替换后完全退出并重新启动 Photoshop。
-GitHub 仍保留下方 2.0.1 历史下载，2.2.2 当前使用上方百度网盘入口。
+两个 GitHub Release 与百度网盘均提供 2.2.2；下方 2.0.1 及更早历史版本继续保留。
 
 ### macOS Apple Silicon 2.0.1（历史版）
 
@@ -377,6 +377,7 @@ Photoshop UXP 存储。更新前请备份。
 - [百度网盘 · Windows 2.1.0 历史版](https://pan.baidu.com/s/1dmtggvoJ1GQvhoS1xGwjxA?pwd=7777)（提取码：`7777`，永久有效）
 - [百度网盘 · Windows 1.5.1 历史版](https://pan.baidu.com/s/1hYnnX6qBmLpRAJXAS8NN7w?pwd=7777)（提取码：`7777`，此旧分享不提供 2.1.0）
 - [GitHub · macOS Apple Silicon 2.0.1](https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64)
+- [GitHub · macOS Apple Silicon 2.2.2 预发布](https://github.com/2771096196/psai/releases/tag/v2.2.2-macos-arm64)
 - [百度网盘 · macOS Apple Silicon 2.2.2](https://pan.baidu.com/s/1q4OgU-wRyVW6SK4xU6WLMA?pwd=1234)（提取码：`1234`，永久有效）
 - [百度网盘 · macOS Apple Silicon 2.0.1](https://pan.baidu.com/s/1twyI48WAKHyZ3psQjXgphQ?pwd=1234)（提取码：`1234`）
 - [百度网盘 · macOS Apple Silicon 1.5.1 历史版](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)（提取码：`7777`，永久有效）
@@ -390,7 +391,7 @@ Photoshop UXP 存储。更新前请备份。
 
 | 平台 | 版本 | GitHub 主仓 / 镜像 | 百度网盘 |
 | --- | --- | --- | --- |
-| macOS Apple Silicon | 2.2.2（当前网盘版） | 尚未发布此版本 | [下载](https://pan.baidu.com/s/1q4OgU-wRyVW6SK4xU6WLMA?pwd=1234)，`1234`，永久有效 |
+| macOS Apple Silicon | 2.2.2（当前预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.2.2-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.2.2-macos-arm64) | [下载](https://pan.baidu.com/s/1q4OgU-wRyVW6SK4xU6WLMA?pwd=1234)，`1234`，永久有效 |
 | macOS Apple Silicon | 2.0.1（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.1-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.1-macos-arm64) | [下载](https://pan.baidu.com/s/1twyI48WAKHyZ3psQjXgphQ?pwd=1234)，`1234` |
 | macOS Apple Silicon | 2.0.0（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v2.0.0-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v2.0.0-macos-arm64) | 尚未提供 |
 | macOS Apple Silicon | 1.5.1（历史预发布） | [主仓](https://github.com/2771096196/psai/releases/tag/v1.5.1-macos-arm64) / [镜像](https://github.com/2771096196/PSAI-Dreamer/releases/tag/v1.5.1-macos-arm64) | [下载](https://pan.baidu.com/s/1c1VHg00ToS5YzgFKCJ_BaA?pwd=7777)，`7777` |
